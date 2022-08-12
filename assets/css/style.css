@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    outline: 4px solid red;
+}
+
+#headerArea {
+    background-color: #2b2d7e;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#coreContent {
+    outline: 4px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#leftAreaContent {
+    outline: 4px solid green;
+    height: calc(100vh - 50px);
+    width: 30vw;
+}
+
+#rightAreaContent {
+    outline: 4px solid purple;
+    height: calc(100vh - 50px);
+    width: calc(70vw);
+}
+
+#searchAreaHeader {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#currentDayWeather {
+    outline: 4px solid yellow;
+    height: calc(50vh - 25px);
+    border: 1px solid black;
+    padding-left: 80px;
+}
+
+#fiveDayForecast {
+    outline: 4px solid pink;
+    height: calc(50vh - 25px);
+}
+
+#fiveDayForecastContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 80px;
+}
+
+.city-and-date-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
