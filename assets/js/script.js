@@ -42,7 +42,7 @@ const renderFiveDayForecast = (daily) => {
         const {dt, weather, temp, wind_speed, humidity} = daily[i];
         formattedFiveDayForecast += `<div id="formattedFiveDayForecast">
                                         <div>${new Date(dt * 1000).toLocaleDateString()}</div>
-                                        <div><img src="http://openweathermap.org/img/wn/${weather[0].icon}@2x.png" height="50" width="50"></div>
+                                        <div><img src="https://openweathermap.org/img/wn/${weather[0].icon}@2x.png" height="50" width="50"></div>
                                         <div>Temp: ${temp.day} ° F</div>
                                         <div>Wind: ${wind_speed} MPH</div>
                                         <div>Humidity: ${humidity}</div>
