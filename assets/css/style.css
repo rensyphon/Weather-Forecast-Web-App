@@ -33,7 +33,7 @@ header {
 #leftAreaContent {
     outline: 4px solid green;
     height: calc(100vh - 50px);
-    width: 30vw;
+    width: 15vw;
 }
 
 #rightAreaContent {
@@ -45,6 +45,20 @@ header {
 #searchAreaHeader {
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    color: white;
+    background-color: #1619c7;
+    width: 80%;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 25px;
 }
 
 #currentDayWeather {
@@ -69,4 +83,21 @@ header {
 .city-and-date-heading {
     font-size: 20px;
     font-weight: bold;
+}
+
+
+#fiveDayForecastHeader{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#formattedFiveDayForecast {
+    background-color: #33345c;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }

@@ -2,31 +2,20 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project creates a weather forecast application. Built in HTML, CSS, and Javascript, the program relies on fetch calls to the OpenWeather One Call API. When the user enters the name of a city, the first api call returns a longitude and latitude value. Then, a second api call is used from these values to obtain the actual weather forecast, which is then printed on the screen as a current value, along with a five-day forecast.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+May be used live at . Otherwise, you may download from the [Github repo]() and run index.html in a web browser.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Type the name of a city in the search field, then press enter or click search. After this, current weather information and a five-day forecast will be displayed on screen. Your last ten searches will be saved in the sidebar and can be clicked on to view that weather information again.
 
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![screenshot](assets/images/screenshot.png)
     ```
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+This program uses the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api).
