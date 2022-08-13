@@ -74,7 +74,7 @@ const oneCall = function (lat, lon, cityName) {
 
 //obtains latitude, logitude, and city name, then passes that into oneCall function
 const latLon = function (city) {
-    let requestURL = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + apiKey;
+    let requestURL = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + apiKey;
     fetch(requestURL)
         .then(function (response) {
             return response.json();

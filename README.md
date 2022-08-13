@@ -6,7 +6,7 @@ This project creates a weather forecast application. Built in HTML, CSS, and Jav
 
 ## Installation
 
-May be used live at . Otherwise, you may download from the [Github repo]() and run index.html in a web browser.
+May be used live at https://rensyphon.github.io/Weather-Forecast-Web-App/. Otherwise, you may download from the [Github repo](https://github.com/rensyphon/Weather-Forecast-Web-App) and run index.html in a web browser.
 
 ## Usage
 
